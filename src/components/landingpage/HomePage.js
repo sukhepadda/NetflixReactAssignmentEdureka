@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import logoImg from "./images/logo.png";
-import backImg from "./images/back.jpg";
 import content1 from "./images/content1.png";
 import content2 from "./images/content2.jpg";
 import content3 from "./images/content3.png";

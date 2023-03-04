@@ -1,15 +1,16 @@
-*{
+* {
+  padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+body {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+body::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
 
-}
-body{
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox */
-}
-body::-webkit-scrollbar { 
-    display: none;  /* Safari and Chrome */
-}
-
-.app{
+.app {
   background-color: #111;
 }
