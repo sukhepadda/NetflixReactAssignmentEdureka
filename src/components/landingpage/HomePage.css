@@ -115,6 +115,11 @@
     color: #fff;
     border: 0px;
     cursor: pointer;
+    text-decoration: none;
+  }
+  .input-group-text:hover{
+    color: #000000;
+    background-color: #e50914;
   }
   .sec-h2 {
     font-size: 50px;
@@ -319,5 +324,7 @@
       margin-left: 0rem !important;
     }
   }
-
+  .testing{
+    text-decoration: none;
+  }
   

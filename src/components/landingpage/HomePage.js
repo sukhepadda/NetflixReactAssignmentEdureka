@@ -30,9 +30,9 @@ function HomePage() {
               <option value="hindi">&nbsp;हिंदी</option>
             </select>
             <i className="fa-solid fa-globe"></i>
-            <button type="button" className="btn btn-danger top-sign-in">
+            <Link to="/lists" type="button" className="btn btn-danger top-sign-in">
               Sign In
-            </button>
+            </Link>
           </form>
         </div>
       </nav>
@@ -63,11 +63,11 @@ function HomePage() {
                   className="form-control"
                   placeholder="Email address"
                 />
-                <Link to="/lists">
-                  <span className="input-group-text" id="basic-addon2">
+                <Link className="input-group-text" to="/lists">
+                  {/* <span className="" id="basic-addon2"> */}
                     Get Started &nbsp;{" "}
                     <i className="bi bi-chevron-right text-white"></i>
-                  </span>
+                  {/* </span> */}
                 </Link>
               </div>
             </div>
@@ -289,10 +289,12 @@ function HomePage() {
                   className="form-control"
                   placeholder="Email address"
                 />
-                <span className="input-group-text" id="basic-addon2">
-                  Get Started &nbsp;
-                  <i className="bi bi-chevron-right text-white"></i>
-                </span>
+                 <Link className="input-group-text" to="/lists">
+                  {/* <span className="" id="basic-addon2"> */}
+                    Get Started &nbsp;{" "}
+                    <i className="bi bi-chevron-right text-white"></i>
+                  {/* </span> */}
+                </Link>
               </div>
             </div>
             <div className="col-md-2 col-1"></div>
