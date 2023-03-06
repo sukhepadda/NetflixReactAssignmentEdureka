@@ -1,0 +1,51 @@
+footer {
+  background-color: #000000;
+  padding-top: 40px;
+  border-top: 8px solid #222;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  color: #757575;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #757575;
+}
+
+footer a:hover {
+  color: #757575;
+  text-decoration: underline;
+}
+.footerDropdown {
+  margin-top: 20px;
+}
+
+.form-select-menu2 {
+  background: transparent;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 15px 30px;
+  color: white;
+}
+
+.form-select-menu2 > option {
+  background-color: grey;
+}
+.footerCredits {
+  color: #757575;
+  font-size: 13px;
+  margin-left: 30px;
+}
+@media (max-width: 318px) {
+  .footerContainer {
+    margin-left: -20px;
+  }
+}
