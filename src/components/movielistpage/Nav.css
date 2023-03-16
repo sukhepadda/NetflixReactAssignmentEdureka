@@ -27,19 +27,19 @@
   object-fit: contain;
 }
 .btnSearch{
-  background-color: red;
-  color:white;
-  position: fixed;
-  right: 80px;
-  height: 30px;
-  font-size: 11px;
-  object-fit: contain;
+  background-color: red !important;
+  color:white !important;
+  position: fixed !important;
+  right: 80px !important;
+  height: 30px !important;
+  font-size: 11px !important;
+  object-fit: contain !important;
   
 }
 .btnSearch:hover{
-  background-color: rgba(243, 27, 27, 0.815);
-  color:white;
+  background-color: rgba(243, 27, 27, 0.815) !important;
+  color:white !important;
 }
 .btnSearch:focus{
- outline: none;
+ outline: none !important;
  }

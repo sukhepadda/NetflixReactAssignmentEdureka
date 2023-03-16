@@ -37,21 +37,22 @@
   .navbar {
     position: absolute;
     width: 100%;
+    background-color: black;
   }
   
   .navbar-brand {
     color: #e50914 !important;
     font-size: 52px;
     font-weight: bold;
-    width: 190px;
+    width: 190px !important;
   }
   .nav-logo {
-    width: 100%;
+    width: 55%;
   }
   
   .bg-img {
     background-image: url(images/back.jpg);
-    height: 700px;
+    height: 570px;
     width: 100%;
   }
   
@@ -85,13 +86,15 @@
     padding-top: 5px;
     font-size: 16px;
     font-weight: 400;
-    background-color: #e50914;
+    background-color: #e50914 !important;
   }
   .top-sign-in:hover {
     color: #000000;
     font-weight: 600;
-    background-color: #e50914;
+    background-color: #e50914 !important;
   }
+
+  /*  */
   .headerTitleOne {
     font-size: 70px;
     overflow: hidden;
@@ -110,16 +113,16 @@
     height: 55px;
   }
   .input-group-text {
-    font-size: 24px;
-    background-color: #e50914;
-    color: #fff;
-    border: 0px;
+    font-size: 24px !important;
+    background-color: #e50914 !important;
+    color: #fff !important;
+    border: 0px !important;
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: none !important;
   }
   .input-group-text:hover{
-    color: #000000;
-    background-color: #e50914;
+    color: #000000 !important;
+    background-color: #e50914 !important;
   }
   .sec-h2 {
     font-size: 50px;

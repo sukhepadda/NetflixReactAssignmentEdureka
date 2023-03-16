@@ -1,17 +1,61 @@
-.main{
-  padding-top: 20px;
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
+
+body {
+  background-color: rgb(17, 17, 17);
+}
+.container-searchpage {
   width: 80%;
-  margin: auto;
+  margin: 2em auto;
 }
-.container-search{
-  width: 100%;
-  margin: 1em auto;
-  background-color: rgba(61, 59, 59, 0.658);
-}
-.grid{
+
+.grid {
   display: grid;
-  margin-left: .5px;
+  margin-left: 0.5px;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: .2em;
+  grid-gap: 0.2em;
   justify-content: center;
+}
+.card {
+  --bs-card-border-width: none !important;
+}
+.searchCard {
+  margin: 2px;
+}
+
+.card-background {
+  outline: none;
+  border: none;
+  background-color: rgb(26, 22, 22);
+}
+
+.search-h2 {
+  background-color: antiquewhite;
+}
+
+/* modal */
+.modal-header{
+  background-color: rgba(0, 0, 0, 0.849);
+}
+.modal-header > h1{
+  color: white;
+}
+.modal-body{
+  background-color: rgba(0, 0, 0, 0.849);
+  display: block;
+  justify-content: center;
+}
+.modal-body > h4{
+  color: white;
+  
+}
+.modal-body > h5{
+  color: white;
+
+}
+.modal-body > h6{
+  color: white;
+
+}
+.btn-close{
+  background-color: white !important;
 }
