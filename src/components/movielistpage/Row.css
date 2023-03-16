@@ -1,10 +1,13 @@
+*{
+    overflow-x: visible;
+}
 h2{
     height: 1.3em;
 }
 .row{
     color: white;
     margin-left: 20px;
-    width: 200%;
+
 }
 .row_posters{
     overflow-y: hidden;

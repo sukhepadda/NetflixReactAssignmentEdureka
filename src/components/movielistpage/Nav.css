@@ -26,3 +26,20 @@
   width: 30px;
   object-fit: contain;
 }
+.btnSearch{
+  background-color: red;
+  color:white;
+  position: fixed;
+  right: 80px;
+  height: 30px;
+  font-size: 11px;
+  object-fit: contain;
+  
+}
+.btnSearch:hover{
+  background-color: rgba(243, 27, 27, 0.815);
+  color:white;
+}
+.btnSearch:focus{
+ outline: none;
+ }
